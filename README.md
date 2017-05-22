@@ -9,7 +9,6 @@ List of modules to be included in the F26 Boltron compose
 |**memcached**            |**yes** |[890176](https://koji.fedoraproject.org/koji/buildinfo?buildID=890176) |[memcached](docker.io/modularitycontainers/memcached) | |
 |**haproxy**              |**yes** |[890180](https://koji.fedoraproject.org/koji/buildinfo?buildID=890180) |[haproxy](docker.io/modularitycontainers/haproxy) | |
 |**perl**                 |**yes** |[888672](https://koji.fedoraproject.org/koji/buildinfo?buildID=888672) |[perl](docker.io/modularitycontainers/perl) | |
-|~~dhcp-server~~          |no |[881907](https://koji.fedoraproject.org/koji/buildinfo?buildID=881907) |[dhcp-server](docker.io/modularitycontainers/dhcp-server) ||
 |postgresql           | |[884273](https://koji.fedoraproject.org/koji/buildinfo?buildID=884273) | | |
 |mongodb              | |[890792](https://koji.fedoraproject.org/koji/buildinfo?buildID=890792) | | |
 |**perl-libintl-perl**    |**yes** |[888373](https://koji.fedoraproject.org/koji/buildinfo?buildID=888373) | | |
@@ -17,13 +16,14 @@ List of modules to be included in the F26 Boltron compose
 |**httpd**                |**yes** |[890082](https://koji.fedoraproject.org/koji/buildinfo?buildID=890082) | |using bootstrap |
 |**nginx**                |**yes** |[868673](https://koji.fedoraproject.org/koji/buildinfo?buildID=868673) |[nginx](docker.io/modularitycontainers/nginx) |using bootstrap |
 |dhcp                 | |[1163](https://koji.fedoraproject.org/koji/taginfo?tagID=1163) |[dhcp-client](docker.io/modularitycontainers/dhcp-client) |
+|**varnish**              |**yes** |[19513341](https://koji.fedoraproject.org/koji/taskinfo?taskID=19513341) | |built using bootstrap module |
+|~~bind~~                 |no| | |wrong branch in distgit |
+|php                  | |[891394](https://koji.fedoraproject.org/koji/buildinfo?buildID=891394) | | |
+|~~source-to-image~~      |no |[892445](https://koji.fedoraproject.org/koji/buildinfo?buildID=892445) | |using bootstrap |
 |~~microdnf~~         |no |[885826](https://koji.fedoraproject.org/koji/buildinfo?buildID=885826) | |
 |nodejs               |  |[19496188](https://koji.fedoraproject.org/koji/taskinfo?taskID=19496188) | |
 |~~python2~~          |no | | |Cant do, some builed troubles  |
 |~~python3~~          |no | | |in BRT |
 |~~proftpd~~          |no  | | | |
 |~~sssd~~ |no | | | |
-|**varnish**              |**yes** |[19513341](https://koji.fedoraproject.org/koji/taskinfo?taskID=19513341) | |built using bootstrap module |
-|~~bind~~                 |no| | |wrong branch in distgit |
-|~~source-to-image~~      |no |[892445](https://koji.fedoraproject.org/koji/buildinfo?buildID=892445) | |using bootstrap |
-|php                  | |[891394](https://koji.fedoraproject.org/koji/buildinfo?buildID=891394) | | |
+|~~dhcp-server~~          |no |[881907](https://koji.fedoraproject.org/koji/buildinfo?buildID=881907) |[dhcp-server](docker.io/modularitycontainers/dhcp-server) ||
