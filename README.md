@@ -1,6 +1,12 @@
 # boltron-content-tracking
 List of modules to be included in the F26 Boltron compose
 
+**Ready for compose:**
+
+* **yes** - the Factory 2.0 team confirmed it's ready
+* pending - the Modularity team believes it's ready, waiting for Factory 2.0 confirmation
+* no - excluded from the Fedora 26 Boltron release
+
 | Module name         | Ready for compose | Koji build | Image in registry |Notes |
 | --------------------|-------------------|------------|-------------------|-------|
 |**container-runtime**    |**yes** |[1186](https://koji.fedoraproject.org/koji/taginfo?tagID=1186) | |built using bootstrap module |
