@@ -16,7 +16,7 @@ List of modules to be included in the F26 Boltron compose
 |**memcached**            |**yes** |[890176](https://koji.fedoraproject.org/koji/buildinfo?buildID=890176) |[memcached](docker.io/modularitycontainers/memcached) | |
 |**haproxy**              |**yes** |[890180](https://koji.fedoraproject.org/koji/buildinfo?buildID=890180) |[haproxy](docker.io/modularitycontainers/haproxy) | |
 |**perl**                 |**yes** |[888672](https://koji.fedoraproject.org/koji/buildinfo?buildID=888672) |[perl](docker.io/modularitycontainers/perl) | |
-|postgresql           |pending |[884273](https://koji.fedoraproject.org/koji/buildinfo?buildID=884273) | | |
+|postgresql           |pending |[895240](https://koji.fedoraproject.org/koji/buildinfo?buildID=895240) | | |
 |mongodb              |pending |[890792](https://koji.fedoraproject.org/koji/buildinfo?buildID=890792) | | |
 |**perl-libintl-perl**    |**yes** |[888373](https://koji.fedoraproject.org/koji/buildinfo?buildID=888373) | | |
 |**perl-Unicode-EastAsianWidth** |**yes** |[888371](https://koji.fedoraproject.org/koji/buildinfo?buildID=888371) | | |
