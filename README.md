@@ -17,11 +17,11 @@ List of modules to be included in the F26 Boltron compose
 |**nginx**                |**yes** |[868673](https://koji.fedoraproject.org/koji/buildinfo?buildID=868673) |[nginx](docker.io/modularitycontainers/nginx) |using bootstrap |
 |dhcp                 | |[1163](https://koji.fedoraproject.org/koji/taginfo?tagID=1163) |[dhcp-client](docker.io/modularitycontainers/dhcp-client) |
 |**varnish**              |**yes** |[19513341](https://koji.fedoraproject.org/koji/taskinfo?taskID=19513341) | |built using bootstrap module |
-|~~bind~~                 |no| | |wrong branch in distgit |
+|nodejs               |  |[19496188](https://koji.fedoraproject.org/koji/taskinfo?taskID=19496188) | |
 |php                  | |[891394](https://koji.fedoraproject.org/koji/buildinfo?buildID=891394) | | |
+|~~bind~~                 |no| | |wrong branch in distgit |
 |~~source-to-image~~      |no |[892445](https://koji.fedoraproject.org/koji/buildinfo?buildID=892445) | |using bootstrap |
 |~~microdnf~~         |no |[885826](https://koji.fedoraproject.org/koji/buildinfo?buildID=885826) | |
-|nodejs               |  |[19496188](https://koji.fedoraproject.org/koji/taskinfo?taskID=19496188) | |
 |~~python2~~          |no | | |Cant do, some builed troubles  |
 |~~python3~~          |no | | |in BRT |
 |~~proftpd~~          |no  | | | |
