@@ -2,6 +2,21 @@
 
 List of modules to be included in the F26 Boltron compose
 
+
+## Rationale
+
+In order for a module to be included in Boltron release, the module, and all of
+its build and runtime dependencies, need to be built in koji from the `f26`
+branch. The difference between `yes` and `pending` states is that Factory 2.0
+team verifies this requirement.
+
+It is easily possible to break this requirement for all modules just by
+building a module from `master` branch. Hence if such module would be
+dependency of `shared-userspace` and `common-build-depedencies` modules, all
+modules would be transitively dependent on it and thus would need to be rebuilt
+against a properly built module.
+
+
 **Ready for compose:**
 
 * **yes** - the Factory 2.0 team confirmed it's ready
