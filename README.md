@@ -26,7 +26,7 @@ against a properly built module.
 | Module name         | Ready for compose | Koji build | Image in registry |Notes |
 | --------------------|-------------------|------------|-------------------|-------|
 |**container-runtime**    |**yes** |[1186](https://koji.fedoraproject.org/koji/taginfo?tagID=1186) | |built using bootstrap module |
-|shared-userspace     |pending |[1224](https://koji.fedoraproject.org/koji/taginfo?tagID=1224) | | |
+|shared-userspace     |pending |[1407](https://koji.fedoraproject.org/koji/taginfo?tagID=1407) | |built using bootstrap module |
 |mariadb              |pending |[893775](https://koji.fedoraproject.org/koji/buildinfo?buildID=893775) | |should be fixed |
 |**memcached**            |**yes** |[890176](https://koji.fedoraproject.org/koji/buildinfo?buildID=890176) |[memcached](docker.io/modularitycontainers/memcached) | |
 |**haproxy**              |**yes** |[890180](https://koji.fedoraproject.org/koji/buildinfo?buildID=890180) |[haproxy](docker.io/modularitycontainers/haproxy) | |
