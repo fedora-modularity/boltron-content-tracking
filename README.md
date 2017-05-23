@@ -42,10 +42,11 @@ against a properly built module.
 |nodejs               |pending  |[19496188](https://koji.fedoraproject.org/koji/taskinfo?taskID=19496188) | |
 |php                  |pending |[891394](https://koji.fedoraproject.org/koji/buildinfo?buildID=891394) | | |
 |~~bind~~                 |no| | |wrong branch in distgit |
-|~~source-to-image~~      |no |[892445](https://koji.fedoraproject.org/koji/buildinfo?buildID=892445) | |using bootstrap |
+|source-to-image      |pending |[895876](https://koji.fedoraproject.org/koji/buildinfo?buildID=895876) | |using bootstrap |
 |~~microdnf~~         |no |[885826](https://koji.fedoraproject.org/koji/buildinfo?buildID=885826) | |
 |~~python2~~          |no | | |Cant do, some builed troubles  |
 |~~python3~~          |no | | |in BRT |
 |~~proftpd~~          |no  | | | |
-|~~sssd~~ |no | | | |
+| sssd | pending |[896001](https://koji.fedoraproject.org/koji/buildinfo?buildID=896001) | | using bootstrap |
 |~~dhcp-server~~          |no |[881907](https://koji.fedoraproject.org/koji/buildinfo?buildID=881907) |[dhcp-server](docker.io/modularitycontainers/dhcp-server) ||
+| postfix | pending | [896564](https://koji.fedoraproject.org/koji/buildinfo?buildID=896564) |[postfix](docker.io/modularitycontainers/postfix)|
