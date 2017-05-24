@@ -42,16 +42,16 @@ against a properly built module.
 |**dhcp**                 |**yes** |[1163](https://koji.fedoraproject.org/koji/taginfo?tagID=1163) |[dhcp-client](docker.io/modularitycontainers/dhcp-client) |
 |**varnish**              |**yes** |[19513341](https://koji.fedoraproject.org/koji/taskinfo?taskID=19513341) | |built using bootstrap module |
 |**nodejs**               |**yes**|[19496188](https://koji.fedoraproject.org/koji/taskinfo?taskID=19496188) | |
-|php                  |needs rebuild now |[891394](https://koji.fedoraproject.org/koji/buildinfo?buildID=891394) | | |
+|php                      |needs rebuild now |[891394](https://koji.fedoraproject.org/koji/buildinfo?buildID=891394) | | |
 |~~bind~~                 |no| | |wrong branch in distgit |
 |**source-to-image**      |**yes** |[895876](https://koji.fedoraproject.org/koji/buildinfo?buildID=895876) | |using bootstrap |
-|~~microdnf~~         |no |[885826](https://koji.fedoraproject.org/koji/buildinfo?buildID=885826) | |
-|~~python2~~          |no | | |Cant do, some builed troubles  |
-|~~python3~~          |no | | |in BRT |
-|~~proftpd~~          |no  | | | |
+|~~microdnf~~             |no |[885826](https://koji.fedoraproject.org/koji/buildinfo?buildID=885826) | |
+|~~python2~~              |no | | |Cant do, some builed troubles  |
+|~~python3~~              |no | | |in BRT |
+|~~proftpd~~              |no  | | | |
 |sssd | needs rebuild now |[896001](https://koji.fedoraproject.org/koji/buildinfo?buildID=896001) | | using bootstrap |
 |**dhcp-server**          |**yes** |[881907](https://koji.fedoraproject.org/koji/buildinfo?buildID=881907) |[dhcp-server](docker.io/modularitycontainers/dhcp-server) ||
-|postfix | needs rebuild now | [896564](https://koji.fedoraproject.org/koji/buildinfo?buildID=896564) |[postfix](docker.io/modularitycontainers/postfix)|
-|installer | needs rebuild after sssd | ||
-|**dnf** | **yes** | ||
-|**shim** | **yes** | ||
+|**postfix**              |**yes** | [896564](https://koji.fedoraproject.org/koji/buildinfo?buildID=896564) |[postfix](docker.io/modularitycontainers/postfix)|
+|installer                |needs rebuild after sssd | ||
+|**dnf**                  |**yes** | ||
+|**shim**                 |**yes** | ||
